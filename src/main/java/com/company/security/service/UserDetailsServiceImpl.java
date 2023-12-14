@@ -1,8 +1,8 @@
 package com.company.security.service;
 
-import com.mpm.beforeandafter.role.model.Role;
-import com.mpm.beforeandafter.user.model.User;
-import com.mpm.beforeandafter.user.repository.UserRepository;
+import com.company.role.model.Role;
+import com.company.user.model.User;
+import com.company.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

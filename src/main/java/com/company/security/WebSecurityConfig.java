@@ -1,8 +1,8 @@
 package com.company.security;
 
-import com.mpm.beforeandafter.security.jwt.AuthEntryPointJwt;
-import com.mpm.beforeandafter.security.jwt.AuthTokenFilter;
-import com.mpm.beforeandafter.security.jwt.JwtUtils;
+import com.company.security.jwt.AuthEntryPointJwt;
+import com.company.security.jwt.AuthTokenFilter;
+import com.company.security.jwt.JwtUtils;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
